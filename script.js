@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Alpha Sweet | Kuvvappodi";
+            document.title = "Alpha Foods | Kuvvappodi";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To AlphaSweets";
+            document.title = "Come Back To AlfaFoods";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["KUVVAPPODI ","BAKES ",],
+    strings: ["ആൽഫാ  കൂവപ്പൊടി :","ക്ഷീണം  അകറ്റാൻ സഹായിക്കുന്നു.","ദഹന  പ്രക്രിയ എളുപ്പമാക്കുന്നു..","ബ്ലഡ് സർക്കുലേഷൻ കൂട്ടുന്നു.","എല്ല് തേയ്മാനം ഇല്ലാതാക്കുന്നു"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
