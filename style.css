@@ -1090,6 +1090,7 @@ form .button-area {
 /* footer section starts */
 .footer {
   min-height: auto;
+  min-width: 100vw;
   padding-top: 0;
   background: rgb(0, 1, 43);
 }
